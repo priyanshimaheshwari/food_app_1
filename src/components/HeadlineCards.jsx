@@ -10,7 +10,7 @@ const HeadlineCards = () => {
                 <p className='fount-bold text-2xl px-2 pt-4'>Sun's Out, BOGO's Out</p>
                 <p className='px-2'>Through 8/26</p>
                 <button className='border-white bg-white text-black mx-2 bottom-4 absolute'>Order Now</button>
-                <p>hii</p>
+                
             </div>
             <img className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src='https://images.pexels.com/photos/7750342/pexels-photo-7750342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/'/>
         </div>
