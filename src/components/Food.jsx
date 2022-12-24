@@ -6,7 +6,23 @@ const Food = () => {
     const [foods,setFoods]=useState(data)
 
     //filter type burgers/pizzas/etc
-    const filterType ={category}
+    
+    const filterType = (category) => {
+        setFoods(
+          data.filter((item) => {
+            return item.category === category;
+          })
+        );
+      };
+
+      //   Filter by price
+  const filterPrice = (price) => {
+    setFoods(
+      data.filter((item) => {
+        return item.price === price;
+      })
+    );
+  };
 
   return (
     <div className='max-w-[1640px] m-auto px-4 py-12'>
