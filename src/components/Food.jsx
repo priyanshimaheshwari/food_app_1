@@ -4,6 +4,10 @@ import {data} from '../data/data.jsx'
 const Food = () => {
     //console.log(data);
     const [foods,setFoods]=useState(data)
+
+    //filter type burgers/pizzas/etc
+    const filterType ={category}
+
   return (
     <div className='max-w-[1640px] m-auto px-4 py-12'>
         <h1 className='text-orange-600 font-bold text-4xl text-center'>Top Rated Menu Items</h1>
