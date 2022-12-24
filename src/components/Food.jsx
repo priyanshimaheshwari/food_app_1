@@ -29,7 +29,7 @@ const Food = () => {
                  <button className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>$</button>
                      <button className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>$$</button>
                      <button className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>$$$</button>
-                     <button className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>$$$$</button>
+                     <button className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white '>$$$$</button>
                  </div>
             </div>
         </div>
@@ -37,7 +37,7 @@ const Food = () => {
         {/*display foods */}
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4 '>
             {foods.map((item, index)=>(
-               <div key={index}>
+               <div key={index} className='border shadow-lg hover:scale-105'>
                    <img src={item.image} alt={item.name} />
                    <div>
                        <p>{item.name}</p>
