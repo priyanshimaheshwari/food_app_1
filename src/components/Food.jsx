@@ -39,7 +39,7 @@ const Food = () => {
             {foods.map((item, index)=>(
                <div key={index} className='border shadow-lg hover:scale-105 duration-300 rounded-lg'>
                    <img src={item.image} alt={item.name} className='w-full h-[200px] object-cover rounded-t-lg'/>
-                   <div>
+                   <div className='flex justify-between px-2 py-4 font-bold text-gray-500'>
                        <p>{item.name}</p>
                        <p><span>{item.price}</span></p>
                    </div>
