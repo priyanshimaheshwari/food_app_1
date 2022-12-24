@@ -36,8 +36,8 @@ const Food = () => {
                  <div>
                      <button onClick={()=> setFoods(data)} className='m-1 border-orange-900 text-orange-600 hover:bg-orange-600 hover:text-white'>All</button>
                      <button onClick={() => filterType('burger')}  className='m-1 border-orange-900 text-orange-600 hover:bg-orange-600 hover:text-white'>Burgers</button>
-                     <button className='m-1 border-orange-900 text-orange-600 hover:bg-orange-600 hover:text-white'>Pizzas</button>
-                     <button className='m-1 border-orange-900 text-orange-600 hover:bg-orange-600 hover:text-white'>Salads</button>
+                     <button  onClick={() => filterType('pizza')}  className='m-1 border-orange-900 text-orange-600 hover:bg-orange-600 hover:text-white'>Pizzas</button>
+                     <button onClick={() => filterType('salad')}  className='m-1 border-orange-900 text-orange-600 hover:bg-orange-600 hover:text-white'>Salads</button>
                      <button className='m-1 border-orange-900 text-orange-600 hover:bg-orange-600 hover:text-white'>Pastas</button>
                  </div>
             </div>
