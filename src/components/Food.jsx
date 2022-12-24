@@ -37,8 +37,8 @@ const Food = () => {
         {/*display foods */}
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4 '>
             {foods.map((item, index)=>(
-               <div key={index} className='border shadow-lg hover:scale-105'>
-                   <img src={item.image} alt={item.name} />
+               <div key={index} className='border shadow-lg hover:scale-105 duration-300'>
+                   <img src={item.image} alt={item.name} className='w-full h-[200px] object-cover rounded-t-lg'/>
                    <div>
                        <p>{item.name}</p>
                        <p><span>{item.price}</span></p>
