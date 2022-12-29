@@ -19,8 +19,8 @@ const [nav, setNav] = useState(false)
           Best <span className='font-bold'>Eats</span>
         </h1>
         <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
-          <p className='bg-black text-white rounded-full p-2'>Delivery</p>
-          <p className='p-2'>Pickup</p>
+          <button><p className='bg-black text-white rounded-full p-2'>Delivery</p></button>
+          <button><p className='p-2'>Pickup</p></button>
         </div>
       </div>
 
